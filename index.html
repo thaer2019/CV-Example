@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?fbclid=IwAR1hTCtmHG7STfGmuQvIr5GhxAmUuLHw4ZwuKRrUimRzIv1r_5i3TG9quiU">
+<title>cv</title>
+<style>
+ body{
+               padding: 0px;
+            
+               margin: 0px;
+               background-color:rgb(226, 222, 222) ;
+               font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+               width: 1250px;
+               height: 400px;
+               margin: 100px auto;
+               position: relative;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               line-height: 1.1;
+}
+.all{
+               display: inline-block;
+               height: 400px;
+               width: 400px;
+               position: relative;
+               transition: 2s;             
+}
+.box1{
+                 background-color: #17a2b8;
+                 z-index: 2;
+                 transform: translateX(400px);
+                 border-left: black solid 20px;
+                 border-radius: 15px;
+                 color: white;
+                 padding-left: 2px;
+} 
+.box2{
+                  z-index: 3;
+                  background-image: url(oo.jpg);
+                  background-size: 400px;
+                  text-align: center;
+                  border-radius: 15px;
+                  color: white;
+                  padding-left: 2px;
+}
+.box3{
+    
+                 background-color:#17a2b8;;
+                 z-index: 1;
+                 transform: translateX(-400px);
+                 border-right: black solid 20px;
+                 border-radius: 15px;
+                 color: white;             
+}
+.container:hover .all{
+                 transform: translateX(0px);       
+}
+.tooltiptext{
+              width: 220px;
+              font-weight:bold;
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              border-radius: 6px;
+              padding: 5px 0;
+}
+.container:hover .tooltiptext {
+  visibility: hidden;
+}
+h1{
+   color: #17a2b8;
+}
+.name{
+   transform:translateY(220px);
+   color: white;
+   font-size: 20px;
+   font-weight:bold;
+}
+.pright{
+   padding-left: 5px;
+}
+h5{ color: black;
+   padding-left: 5px;
+   font-size: 15px;
+}
+ul{ padding-left: 20px;}
+.bachelor{ padding-left: 5px;
+}
+.contact{list-style: none;}
+img{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+}
+.photo{
+   display: inline-block;
+   transform: translateY(-23px);
+}
+.Projects{
+   height: 20px;
+   width: 35px;
+   border-radius: 50%;
+   background-color: white;
+   color:#17a2b8 ;
+   display: inline-block;
+   text-align: center;
+}
+.contact{
+   padding-left: 2px;
+   word-spacing: 10px;
+}
+</style>  
+</head>
+<body>
+                  <div class="container">
+                    
+                                        <div class="box1 all">
+                                        <h5>
+                                        <i class="fa fa-cog fa-spin fa-fw"></i>
+                                        <span class="sr-only">Loading...</span>
+                                        Technical Skills:
+                                        </h5>
+                                        <ul>
+                                          <li>HTML</li>
+                                          <li>CSS</li>
+                                          <li>JS</li>
+                                          <li>Bootstrap</li>
+                                          <li>jquery</li>
+                                          <li>sas</li>
+                                        </ul>
+                                        <h5> 
+                                          <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                                           Contact:
+                                          </h5>
+                                          <ul class="contact">
+                                              <li>
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                                <a>0100000000</a>
+                                              </li>
+                                              <li>
+                                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                <a href="#"> Example@gmail.com</a>
+                                              </li>
+                                              <li>
+                                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                                <a href="#">Linkedin</a>
+                                              </li>
+                                              </ul>
+                                              <h5 class="last">
+                                              <i class="fa fa-magic" aria-hidden="true"></i>
+                                              Projects:
+                                              </h5>
+                                              <div class="allProjects">
+                                              Please click on the numbers<br/>
+                                               <div class="Projects">
+                                                 <a href="#" target="_blank">1</a> 
+                                                </div>
+                                               <div class="Projects">
+                                                 <a href="#" target="_blank">2</a> 
+                                                </div>
+                                               <div class="Projects">
+                                                  <a href="# "  target="_blank">3</a>
+                                                </div>
+                                               <div class="Projects">
+                                                  <a href="#" target="_blank">4</a>
+                                                </div>
+                                               <div class="Projects">
+                                                 <a href="#" target="_blank"> 5</a>
+                                                </div>
+                                               <div class="Projects">
+                                                  <a href="#" target="_blank">6</a>
+                                                </div>
+                                               <div class="Projects">
+                                                 <a href="#" target="_blank"> 7</a>
+                                                </div>
+                                               <div class="Projects">
+                                                  <a href="#" target="_blank">8</a>
+                                                </div>
+                                               <div class="Projects">
+                                                  <a href="#" target="_blank">9</a>
+                                                </div>
+                                           </div>
+                                           </div>
+                                           <div class="box2 all">
+                                           <h1>C.V</h1>
+                                           <span class="tooltiptext">Pleace Make Hover</span>
+                                            <p class="name">
+                                            my name<br/>
+                                            Front-end Developer
+                                           </p>
+
+                                           </p>
+                                            </div>
+                                           <div class="box3 all">
+                                       
+                                           <h5>
+                                           <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                           Personal Summary:
+                                            </h5>
+                                           <p class="pright">
+                                            After 8 years working in the field of sales and marketing
+                                           outside Egypt, I suddenly returned from traveling and decided
+                                           to learn what I love.
+                                           I am in love with programming.
+                                           </p>
+                                           <h5>
+                                           <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                           Education:
+                                           </h5>
+                                            <p class="bachelor"> Bachelor of social work </p> 
+                                           <h5>
+                                             <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                             Training Courses :
+                                           </h5>
+                                           <ul>
+                                             <li>3 certificate from Udacity in Front End is accredited by the Minister of Industrial Intelligence at Dubai </li>
+                                             <li>3-month practical training course at Inoledge</li>
+                                             <li>Certificate in Digital  Marketing from Google</li>
+                                             <li>Diploma in Marketing from the University of Cambridge</li>
+                                             
+                                           </ul>
+
+                           
+                                        
+                                           </div>
+                  </div>
+      
+</body>
+</html>
